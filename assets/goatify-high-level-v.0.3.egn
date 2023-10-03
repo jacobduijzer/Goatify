@@ -1,0 +1,821 @@
+{
+  "domain": {
+    "name": "[icons: default]",
+    "actors": {
+      "Person": "<svg viewBox=\"0 0 24 26\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z\"/><path d=\"M0 0h24v24H0z\" fill=\"none\"/></svg>",
+      "Group": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"48\" viewBox=\"0 0 24 26\"><path d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M16.5 13c-1.2 0-3.07.34-4.5 1-1.43-.67-3.3-1-4.5-1C5.33 13 1 14.08 1 16.25V19h22v-2.75c0-2.17-4.33-3.25-6.5-3.25zm-4 4.5h-10v-1.25c0-.54 2.56-1.75 5-1.75s5 1.21 5 1.75v1.25zm9 0H14v-1.25c0-.46-.2-.86-.52-1.22.88-.3 1.96-.53 3.02-.53 2.44 0 5 1.21 5 1.75v1.25zM7.5 12c1.93 0 3.5-1.57 3.5-3.5S9.43 5 7.5 5 4 6.57 4 8.5 5.57 12 7.5 12zm0-5.5c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm9 5.5c1.93 0 3.5-1.57 3.5-3.5S18.43 5 16.5 5 13 6.57 13 8.5s1.57 3.5 3.5 3.5zm0-5.5c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2z\"/></svg>",
+      "System": "<svg viewBox=\"0 0 24 26\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20,18c1.1,0,2-0.9,2-2V6c0-1.1-0.9-2-2-2H4C2.9,4,2,4.9,2,6v10c0,1.1,0.9,2,2,2H0v2h24v-2H20z M4,6h16v10H4V6z\"/></svg>",
+      "Business": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 26\"><path fill=\"none\" d=\"M0 0h24v24H0V0z\"/><path d=\"M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z\"/></svg>",
+      "home_work_FILL0_wght300_GRAD0_opsz48_png_custom": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAl9JREFUaEPtmb9KHUEUxn+3SmmRJmUIWAp5ASGmkIBgERGCIv5Lk2D6pAgxIugDJJIiolhpYSOWomIVAnbpLOIL+ADRInJgRg6b2Tuzu7N795oZuMXdmTnzfec7Z2b2bIc+b50+x08i0GsFkwJJgYoeqCOEloFPFXH5pt/hTgQcrrIKnAKffa4s2H9ixjeigBAYKQiw2/BnQCIQ4lAdQq1X4CFwlWE1DmwCv9oeQnPAFnAICOi/ishj01dEAR3jrvyJmgP7wEsF+A8wCpyFxFjOmEYIvAB2gQEDQsJHwsi2VeBjSRK1E/gKvFXgtoF54/kD4IHp+wm8An6XJJI3rXQIPQV2gCFjWcJlGpAwsk0Olj1gUj2bNfNi8ShF4D2wphBIwk4A1zmoZjKgvxvVbiKwKETgESCLj6mF3wFfAoA8ASS8hs1YCaXXwHHA3Cgn8RSwoRJVFl4ELgsCkGReUXPkhqr/FzRHkAIC/I2y/AFYL7qSGv8c+AYMmmdHJqQuHDYFoPxskxNdtyAC9jD6ASwB5xXA26myO4ljFswDOdzkoMq2KNuoJZC3SBU+Ptv3goB2UFalQiHUCwV86iYCPg/5+n054JtfWQExEFptcF2jW0HAvpN281beu3CrCORVG0ShsgRq30adMZg5Of97AjrHsnkUJYn/qctEVKCRXSgRMKUW12Wu5wpI/MoVuOwuFJ2Ay2BoCLm2WTtX37P0/d9HQPq9tVFdnOpm0FWWtwr4gGgCZb8l5FanmyYQSjrrlFrL6z4FovbX8YUmKkCfsUTA56G6+5MCdXvYZ7/vFbgFCx7IMb7kyH8AAAAASUVORK5CYII=",
+      "science_FILL0_wght300_GRAD0_opsz48_png_custom": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAmNJREFUaEPt2U3ITHEUx/HPsxNZKSsbRVmQhUJKkZdskNdCkSKJIgmhUEhJKCywoEREXrJBImUhscBCLLC1UmKto//U7fLM3JeZZ3rq/jfT3Hv+5/y+/3PuOdOdAcN8DQxz/RqAfmewyUCTgZonULeEVuFWTQ0bcaWqj7oA63CtavC0bzdOVfVRF2A0pmWCz8EhPMeRnKi4Hvfjetxvrdf41S+AfNzDGYC5uZvPMgBh15VVNwMNQN00NBnInWDzDJQtqaaEmhIqWzM5+6aEmhJqSqjmCWS2z8N9jMIdrMy5vo0V6ZfnUjztRuhuPcST8QDj8QIh8EdO4JhkMwtfsAQf6kJ0A2BsEjYDH5Owz4MIy4K+Srbf60B0AyDKJk7zNxbiZQdBCxLwiPQZ2aq86gJcwqYUfRnuFVSyHleT7WVsLrjvH7M6AMewP3ncgoslRezFibTnOA6U3P/XvCrADpxJAQ8iYKqs8BG+Yu3E2bJOqgCswfUU6Dy2lw2as7+J1enaWtwo468sQLbXP8TiMsHa2EbrnV1lRpQByLbA95iZOk83GOL1zFtMKDsjigJke/1PTMG3bijP+JiENxiJwjOiKECr10e86YiXUb1Y8/EkOY7J3nFGFAHI9vrluNsL5RmfGzLvSjvOiE4A2V6/C6d7LL7lPmbC0fSl7YxoBzARn5KT6M/Rp4dyXcDWFHAq3v0veDuAEBwnHvXfGlpDCRCxIuvRqvfgZFmA+NH1eKgVDxJvER6VBQj7fdiGcX0C+Ypz7f4/6PQQ90l38bANQPGz6o1lk4HenGtxr00Gip9Vbyz/AAlBjjGyLL8CAAAAAElFTkSuQmCC"
+    },
+    "workObjects": {
+      "Document": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 26\"><path fill=\"none\" d=\"M0 0h24v24H0V0z\"/><path d=\"M8 16h8v2H8zm0-4h8v2H8zm6-10H6c-1.1 0-2 .9-2 2v16c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11z\"/></svg>",
+      "Folder": "<svg viewBox=\"0 0 24 26\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"none\" d=\"M0,0h24v24H0V0z\"/><path d=\"M9.17,6l2,2H20v10L4,18V6H9.17 M10,4H4C2.9,4,2.01,4.9,2.01,6L2,18c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V8c0-1.1-0.9-2-2-2 h-8L10,4L10,4z\"/></svg>",
+      "Call": "<svg viewBox=\"0 0 24 26\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"none\" d=\"M0,0h24v24H0V0z\"/><path d=\"M6.54,5C6.6,5.89,6.75,6.76,6.99,7.59l-1.2,1.2C5.38,7.59,5.12,6.32,5.03,5H6.54 M16.4,17.02c0.85,0.24,1.72,0.39,2.6,0.45 v1.49c-1.32-0.09-2.59-0.35-3.8-0.75L16.4,17.02 M7.5,3H4C3.45,3,3,3.45,3,4c0,9.39,7.61,17,17,17c0.55,0,1-0.45,1-1v-3.49\tc0-0.55-0.45-1-1-1c-1.24,0-2.45-0.2-3.57-0.57c-0.1-0.04-0.21-0.05-0.31-0.05c-0.26,0-0.51,0.1-0.71,0.29l-2.2,2.2 c-2.83-1.45-5.15-3.76-6.59-6.59l2.2-2.2C9.1,8.31,9.18,7.92,9.07,7.57C8.7,6.45,8.5,5.25,8.5,4C8.5,3.45,8.05,3,7.5,3L7.5,3z\"/></svg>",
+      "Email": "<svg viewBox=\"0 0 24 26\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"none\" d=\"M0,0h24v24H0V0z\"/><path fill-opacity=\"0.9\" d=\"M12,1.95c-5.52,0-10,4.48-10,10s4.48,10,10,10h5v-2h-5c-4.34,0-8-3.66-8-8s3.66-8,8-8s8,3.66,8,8v1.43 c0,0.79-0.71,1.57-1.5,1.57S17,14.17,17,13.38v-1.43c0-2.76-2.24-5-5-5s-5,2.24-5,5s2.24,5,5,5c1.38,0,2.64-0.56,3.54-1.47 c0.65,0.89,1.77,1.47,2.96,1.47c1.97,0,3.5-1.6,3.5-3.57v-1.43C22,6.43,17.52,1.95,12,1.95z M12,14.95c-1.66,0-3-1.34-3-3 s1.34-3,3-3s3,1.34,3,3S13.66,14.95,12,14.95z\"/></svg>",
+      "Conversation": "<svg height=\"48\" viewBox=\"0 0 24 26\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"/><path d=\"M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z\"/></svg>",
+      "Info": "<svg height=\"48\" viewBox=\"0 0 24 26\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M11 17h2v-6h-2v6zm1-15C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 9h2V7h-2v2z\"/></svg>",
+      "water_full_FILL0_wght300_GRAD0_opsz48_png_custom": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAA9dJREFUaEPt2UeobEUQBuDvGVFRRDFgzrhQFMxZTAtRF/rMIAiKC8GcXagLcw4LUTe6MAfUlRFzFkEFQcwJDJhAwSw/9MBweXe6zxlnLk9uwWFmONV/999VXVVds8BiLgsW8/WbJzDXFvzfW+Cfud7hMv+sG12zwEfYcI5JfIyNZltDjcBT2AuX4bEpE9kP5+Jp7N2XwK04Dnfi6CkTuB3H4DYc35fAebgYz2P3KRN4suz8+bikL4Ejy+5/ig2mTOA9bI6jcFdfAjviZSQaLTFlAj9jReyEV/oSWAefl8H5/uWUSGThIRBZF1/0JZBd/6sMjjVenRKBuE5cKLIk/u5LION+wfJYiAcaCayPtfFteX5sHDdQS9jMIf4VK4waW8sDGfsOtsApuH4G2HLYF5th06IX3ZVm6P2Ax/EEnsGHFUIJnwmj72LLcQk8ggNxFc4sYFuVvHBoz+gUy7yBD8oZy+9vyo5nihzchM5HcdC4BLLrJ+Hu4kLHYv8h0J+QMJvns6HPr4d0YqFtysJG7uiMxd6Ak8clENe5FqmLhmuSN3FLebq4ePLJAYgVNymul/OyKDkV141L4BDcPwSShWdn7uiy6opuzlLO0CpFL4sOwWrgaDnE8ceXCvA+SIE3aYlbJhDsXBLprPO1EFiv+HVA1iiHbdIEBveQhOOcq7EIJJH8WRC2K9FjkgRWG9qkpYYS6SLnbLFABibEBTjn4cFJrh7b4vWSAFevzdVKICXE9qhGhdqEDe+TW+7Fa9ihpt9KIDng8BJOT6uBjvn+LFyOe3BEDauVwBUlC6cWSmibpNyME3AlQmaktBIYJLP4ZlxpkpK7d+7DTe7aSmDglykP1pzk6vF+SWqH4b7aXK0EklBeLGDL4I8a8Bjvg53wuctQAh0rD2Rw6pf0ZyIbl7pojDXOOnRVfFfeph/1SW2SVgssjd8L2B54rgbc8/3WeKuLpVsJBDO7kdSe/lD6RJOQ1P4Pl9KlqQvShcCzpTd0NhJWJyEn4qZi4Vi6Kl0IpDeTxHJjueBUwXsoJIEl9idxpidVlS4EcqU8HQ/h4CpyP4XBJl2NM1oguhBIYrmmVKOpSichL5TwmXIlt8CqdCGQWiimnWQySwMr18u4amqhqnQhsGtp8gY08fr7Kno3hZWR9ktkN8QaVelCIIklF/tI7qtvV9G7KaRbMcBM82CQOEeidCGwbCGwFi4qDapuSxytvScuwFel+/FbC3gXAsE7B5e2AI+hk4ZW/hNokq4EAnph+ccklvgvJd25VJ950n5skj4EmoCnpTRPYFo7Pds88xaYawv8C1vnqzEIGSBKAAAAAElFTkSuQmCC",
+      "request_quote_FILL0_wght300_GRAD0_opsz48_png_custom": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAaJJREFUaEPtmTEyxTEQh793Gb0GJT0FhWNozFCiZIxGxRU0ZujRcQQu4BjMziQzmcyf3fcSsiGp3kz+L8m3v81uNpnReZt1vn4GQGsF/40C68AKsAOsVrD6DbBbYRzzHjgH9mtMmIxRBcLqQq/AEnACPBaAiJJHNSGsAB9h0o1CgOMMQIYtUsIDQBGEF4CFITwBLAThDWBuCI8Ac0F4BTBD/DaAJYVIrngIH6rrUz8IA9XKAwMgt8BPKxBd4QmQLGxprlxIAGRBcobqAuACWM7MLABTB0A5V021ZgqkE2uuIkCuAcRltPaVS7lQwBoc3LrQAGiRiVPfzfeAZPKoivy+Bt57jkK3wLY3AFnPVSj+v4tAMS+4C6Na2JT+WNS7zAMDIFigWSLrXoE/dRbS1LgE9ryFUVEgb3IPGuuB9Egtd63uEtmUQbsraHKIVBXrrbbrKKTtDekfAFNWeg5PS6UPHFYFZPO/AGvaH6yFxwFwqg1Wuf8QONPGtAKIX24CW4bTpjan1v8G3AH3ltcgK4A2abP+AdDM9NaiufUCtfm7d6FPqqeiMdYBA3wAAAAASUVORK5CYII="
+    }
+  },
+  "dst": [
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "routeplanning",
+      "id": "shape_4208",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 1992,
+      "y": -68
+    },
+    {
+      "type": "domainStory:actorPerson",
+      "name": "planner",
+      "id": "shape_2073",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 2083,
+      "y": -297
+    },
+    {
+      "type": "domainStory:workObjectInfo",
+      "name": "kwaliteitsrapport",
+      "id": "shape_8683",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 2277,
+      "y": 452
+    },
+    {
+      "type": "domainStory:actorscience_FILL0_wght300_GRAD0_opsz48_png_custom",
+      "name": "Laboratorium",
+      "id": "shape_1877",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 2707,
+      "y": 822
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "routeplanning",
+      "id": "shape_8983",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 1327,
+      "y": 322
+    },
+    {
+      "type": "domainStory:actorBusiness",
+      "name": "Melkfabriek",
+      "id": "shape_2086",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 1937,
+      "y": 242
+    },
+    {
+      "type": "domainStory:actorPerson",
+      "name": "vrachtwagen chauffeur",
+      "id": "shape_7534",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 808,
+      "y": 213
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "Route",
+      "id": "shape_9791",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 1327,
+      "y": 143
+    },
+    {
+      "type": "domainStory:workObjectwater_full_FILL0_wght300_GRAD0_opsz48_png_custom",
+      "name": "geitenmelk",
+      "id": "shape_8542",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 927,
+      "y": 602
+    },
+    {
+      "type": "domainStory:actorhome_work_FILL0_wght300_GRAD0_opsz48_png_custom",
+      "name": "Geitenboerderij",
+      "id": "shape_1288",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 1077,
+      "y": 862
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "rapportage",
+      "id": "shape_2979",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 1327,
+      "y": 552
+    },
+    {
+      "type": "domainStory:workObjectEmail",
+      "name": "rapportage",
+      "id": "shape_8740",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 1537,
+      "y": 652
+    },
+    {
+      "type": "domainStory:actorPerson",
+      "name": "laborant",
+      "id": "shape_5818",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 2528,
+      "y": 343
+    },
+    {
+      "type": "domainStory:workObjectwater_full_FILL0_wght300_GRAD0_opsz48_png_custom",
+      "name": "batch sample",
+      "id": "shape_6089",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 2277,
+      "y": 213
+    },
+    {
+      "type": "domainStory:workObjectwater_full_FILL0_wght300_GRAD0_opsz48_png_custom",
+      "name": "batch sample",
+      "id": "shape_5720",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 2657,
+      "y": 572
+    },
+    {
+      "type": "domainStory:workObjectrequest_quote_FILL0_wght300_GRAD0_opsz48_png_custom",
+      "name": "eindafrekening",
+      "id": "shape_6399",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 1677,
+      "y": 802
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "vraagt",
+      "id": "connection_1871",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 2,
+      "waypoints": [
+        {
+          "original": {
+            "x": 883,
+            "y": 246
+          },
+          "x": 883,
+          "y": 246
+        },
+        {
+          "original": {
+            "x": 1327,
+            "y": 186
+          },
+          "x": 1327,
+          "y": 186
+        }
+      ],
+      "source": "shape_7534",
+      "target": "shape_9791",
+      "multipleNumberAllowed": null
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "aan",
+      "id": "connection_3942",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1409,
+            "y": 188
+          },
+          "x": 1409,
+          "y": 188
+        },
+        {
+          "original": {
+            "x": 1937,
+            "y": 274
+          },
+          "x": 1937,
+          "y": 274
+        }
+      ],
+      "source": "shape_9791",
+      "target": "shape_2086",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "levert",
+      "id": "connection_2142",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 3,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1937,
+            "y": 285
+          },
+          "x": 1937,
+          "y": 285
+        },
+        {
+          "original": {
+            "x": 1403,
+            "y": 355
+          },
+          "x": 1403,
+          "y": 355
+        }
+      ],
+      "source": "shape_2086",
+      "target": "shape_8983",
+      "multipleNumberAllowed": null
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "aan",
+      "id": "connection_7864",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1327,
+            "y": 353
+          },
+          "x": 1327,
+          "y": 353
+        },
+        {
+          "original": {
+            "x": 874,
+            "y": 275
+          },
+          "x": 874,
+          "y": 275
+        }
+      ],
+      "source": "shape_8983",
+      "target": "shape_7534",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "haalt",
+      "id": "connection_8413",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 4,
+      "waypoints": [
+        {
+          "original": {
+            "x": 858,
+            "y": 309
+          },
+          "x": 858,
+          "y": 309
+        },
+        {
+          "original": {
+            "x": 953,
+            "y": 602
+          },
+          "x": 953,
+          "y": 602
+        }
+      ],
+      "source": "shape_7534",
+      "target": "shape_8542",
+      "multipleNumberAllowed": null
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "bij",
+      "id": "connection_0627",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 984,
+            "y": 682.5
+          },
+          "x": 984,
+          "y": 682.5
+        },
+        {
+          "original": {
+            "x": 1093,
+            "y": 862
+          },
+          "x": 1093,
+          "y": 862
+        }
+      ],
+      "source": "shape_8542",
+      "target": "shape_1288",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "verstuurt",
+      "id": "connection_2223",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 5,
+      "waypoints": [
+        {
+          "original": {
+            "x": 877,
+            "y": 271
+          },
+          "x": 877,
+          "y": 271
+        },
+        {
+          "original": {
+            "x": 1327,
+            "y": 565
+          },
+          "x": 1327,
+          "y": 565
+        }
+      ],
+      "source": "shape_7534",
+      "target": "shape_2979",
+      "multipleNumberAllowed": null
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "naar",
+      "id": "connection_2152",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1393,
+            "y": 576
+          },
+          "x": 1393,
+          "y": 576
+        },
+        {
+          "original": {
+            "x": 1937,
+            "y": 299
+          },
+          "x": 1937,
+          "y": 299
+        }
+      ],
+      "source": "shape_2979",
+      "target": "shape_2086",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "verstuurt",
+      "id": "connection_5350",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 6,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1937,
+            "y": 319
+          },
+          "x": 1937,
+          "y": 319
+        },
+        {
+          "original": {
+            "x": 1596,
+            "y": 668
+          },
+          "x": 1596,
+          "y": 668
+        }
+      ],
+      "source": "shape_2086",
+      "target": "shape_8740",
+      "multipleNumberAllowed": null
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "naar",
+      "id": "connection_6079",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1537,
+            "y": 707
+          },
+          "x": 1537,
+          "y": 707
+        },
+        {
+          "original": {
+            "x": 1141,
+            "y": 883
+          },
+          "x": 1141,
+          "y": 883
+        }
+      ],
+      "source": "shape_8740",
+      "target": "shape_1288",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "haalt",
+      "id": "connection_9362",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 7,
+      "waypoints": [
+        {
+          "original": {
+            "x": 2528,
+            "y": 361
+          },
+          "x": 2528,
+          "y": 361
+        },
+        {
+          "original": {
+            "x": 2349,
+            "y": 269
+          },
+          "x": 2349,
+          "y": 269
+        }
+      ],
+      "source": "shape_5818",
+      "target": "shape_6089",
+      "multipleNumberAllowed": null
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "bij",
+      "id": "connection_8791",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 2277,
+            "y": 254
+          },
+          "x": 2277,
+          "y": 254
+        },
+        {
+          "original": {
+            "x": 2014,
+            "y": 277
+          },
+          "x": 2014,
+          "y": 277
+        }
+      ],
+      "source": "shape_6089",
+      "target": "shape_2086",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "analyseert",
+      "id": "connection_3873",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 8,
+      "waypoints": [
+        {
+          "original": {
+            "x": 2585,
+            "y": 424
+          },
+          "x": 2585,
+          "y": 424
+        },
+        {
+          "original": {
+            "x": 2674,
+            "y": 572
+          },
+          "x": 2674,
+          "y": 572
+        }
+      ],
+      "source": "shape_5818",
+      "target": "shape_5720",
+      "multipleNumberAllowed": null
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "in",
+      "id": "connection_0147",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 2704,
+            "y": 653
+          },
+          "x": 2704,
+          "y": 653
+        },
+        {
+          "original": {
+            "x": 2737,
+            "y": 822
+          },
+          "x": 2737,
+          "y": 822
+        }
+      ],
+      "source": "shape_5720",
+      "target": "shape_1877",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "verstuurt",
+      "id": "connection_5513",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 9,
+      "waypoints": [
+        {
+          "original": {
+            "x": 2528,
+            "y": 398
+          },
+          "x": 2528,
+          "y": 398
+        },
+        {
+          "original": {
+            "x": 2345,
+            "y": 477
+          },
+          "x": 2345,
+          "y": 477
+        }
+      ],
+      "source": "shape_5818",
+      "target": "shape_8683",
+      "multipleNumberAllowed": null
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "naar",
+      "id": "connection_5348",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 2277,
+            "y": 467
+          },
+          "x": 2277,
+          "y": 467
+        },
+        {
+          "original": {
+            "x": 2005,
+            "y": 302
+          },
+          "x": 2005,
+          "y": 302
+        }
+      ],
+      "source": "shape_8683",
+      "target": "shape_2086",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "verstuurt",
+      "id": "connection_0958",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 10,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1953,
+            "y": 327
+          },
+          "x": 1953,
+          "y": 327
+        },
+        {
+          "original": {
+            "x": 1728,
+            "y": 811
+          },
+          "x": 1728,
+          "y": 811
+        }
+      ],
+      "source": "shape_2086",
+      "target": "shape_6399",
+      "multipleNumberAllowed": null
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "naar",
+      "id": "connection_9338",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1677,
+            "y": 844
+          },
+          "x": 1677,
+          "y": 844
+        },
+        {
+          "original": {
+            "x": 1162,
+            "y": 905
+          },
+          "x": 1162,
+          "y": 905
+        }
+      ],
+      "source": "shape_6399",
+      "target": "shape_1288",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "maakt",
+      "id": "connection_9787",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 1,
+      "waypoints": [
+        {
+          "original": {
+            "x": 2121,
+            "y": -259
+          },
+          "x": 2102,
+          "y": -212
+        },
+        {
+          "original": {
+            "x": 2030,
+            "y": -30
+          },
+          "x": 2042,
+          "y": -60
+        }
+      ],
+      "source": "shape_2073",
+      "target": "shape_4208",
+      "multipleNumberAllowed": null
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "voor",
+      "id": "connection_0201",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 2030,
+            "y": -30
+          },
+          "x": 2021,
+          "y": 17
+        },
+        {
+          "original": {
+            "x": 1970,
+            "y": 280
+          },
+          "x": 1977,
+          "y": 242
+        }
+      ],
+      "source": "shape_4208",
+      "target": "shape_2086",
+      "multipleNumberAllowed": false
+    },
+    {
+      "info": "High-level beschrijving van de workflow van de Goatify applicatie."
+    },
+    {
+      "version": "2.0.0-beta.1"
+    }
+  ]
+}
